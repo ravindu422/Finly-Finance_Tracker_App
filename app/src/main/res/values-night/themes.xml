@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Finly" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_variant</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_variant</item>
+        <item name="colorSecondaryVariant">@color/secondary</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Additional Material theme attributes -->
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorSurface">@color/theme_surface_dark</item>
+        <item name="colorOnSurface">@color/theme_text_primary_dark</item>
+        <item name="android:colorBackground">@color/theme_background_dark</item>
+        <item name="colorOnBackground">@color/theme_text_primary_dark</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/theme_background_dark</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/theme_text_primary_dark</item>
+        <item name="android:textColorSecondary">@color/theme_text_secondary_dark</item>
+
+        <!-- Widget customization -->
+        <item name="materialButtonStyle">@style/Widget.Finly.Button.Dark</item>
+        <item name="materialCardViewStyle">@style/Widget.Finly.CardView.Dark</item>
+        <item name="bottomNavigationStyle">@style/Widget.Finly.BottomNavigation.Dark</item>
+        <item name="tabStyle">@style/Widget.Finly.TabLayout.Dark</item>
+        <item name="textInputStyle">@style/Widget.Finly.TextInputLayout.Dark</item>
+        <item name="switchStyle">@style/Widget.Finly.Switch.Dark</item>
+
+        <!-- Ripple effect color -->
+        <item name="colorControlHighlight">#33FFFFFF</item>
+
+        <!-- General control colors -->
+        <item name="colorControlNormal">@color/theme_text_secondary_dark</item>
+        <item name="colorControlActivated">@color/accent</item>
+    </style>
+
+    <!-- Splash screen theme -->
+    <style name="Theme.Finly.Splash" parent="Theme.Finly">
+        <item name="android:windowBackground">@color/primary_variant</item>
+        <item name="android:statusBarColor">@color/primary_variant</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/primary_variant</item>
+    </style>
+
+    <!-- Button style -->
+    <style name="Widget.Finly.Button.Dark" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="backgroundTint">@color/accent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+    </style>
+
+    <!-- Card style -->
+    <style name="Widget.Finly.CardView.Dark" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/theme_surface_dark</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+
+    <!-- Bottom Navigation style -->
+    <style name="Widget.Finly.BottomNavigation.Dark" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@color/bottom_nav_item_colors</item>
+        <item name="itemTextColor">@color/bottom_nav_item_colors</item>
+        <item name="backgroundTint">@color/theme_surface_dark</item>
+        <item name="elevation">8dp</item>
+    </style>
+
+    <!-- Tab Layout style -->
+    <style name="Widget.Finly.TabLayout.Dark" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabIndicatorColor">@color/accent</item>
+        <item name="tabSelectedTextColor">@color/accent</item>
+        <item name="tabTextColor">@color/theme_text_secondary_dark</item>
+        <item name="tabRippleColor">#33FFFFFF</item>
+    </style>
+
+    <!-- TextInputLayout style -->
+    <style name="Widget.Finly.TextInputLayout.Dark" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/text_input_box_stroke</item>
+        <item name="hintTextColor">@color/accent</item>
+    </style>
+
+    <!-- Switch style -->
+    <style name="Widget.Finly.Switch.Dark" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="thumbTint">@color/switch_thumb_color</item>
+        <item name="trackTint">@color/switch_track_color</item>
+    </style>
+
+    <style name="Widget.Finly.Chip.Filter" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/chip_background</item>
+        <item name="android:textColor">@color/chip_text_color</item>
+        <item name="chipStrokeWidth">0dp</item>
+        <item name="chipCornerRadius">16dp</item>
+        <item name="android:textSize">10sp</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="chipMinHeight">32dp</item>
+        <item name="chipIconVisible">false</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="closeIconVisible">false</item>
+        <item name="rippleColor">@android:color/transparent</item>
+    </style>
+</resources>

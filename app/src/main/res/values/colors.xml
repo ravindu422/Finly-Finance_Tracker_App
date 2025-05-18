@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Theme Colors -->
+    <color name="primary">#1E4F88</color>
+    <color name="primary_variant">#0D3B66</color>
+    <color name="secondary">#3B82F6</color>
+    <color name="secondary_variant">#2563EB</color>
+
+    <!-- Background Colors - 60% -->
+    <color name="background_light">#F5F7FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="background_secondary">#F0F2F5</color>
+
+    <!-- Content Colors - 30% -->
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="divider">#F0F0F0</color>
+    <color name="inactive">#CBD5E1</color>
+    <color name="light_gray">#EAEAEA</color>
+
+    <!-- Accent Colors - 10% -->
+    <color name="accent">#3B82F6</color> <!-- Main accent for interactive elements -->
+    <color name="income_green">#20C997</color> <!-- For income and positive values -->
+    <color name="expense_red">#FF5A5F</color> <!-- For expenses and negative values -->
+    <color name="balance_blue">#0EA5E9</color> <!-- For balance and neutral metrics -->
+    <color name="investment_purple">#8B5CF6</color> <!-- For investments -->
+    <color name="income_light_bg">#0A4CAF50</color> <!-- 4% opacity income green -->
+    <color name="expense_light_bg">#0AF44336</color> <!-- 4% opacity expense red -->
+    <color name="balance_light_bg">#0A2196F3</color> <!-- 4% opacity balance blue -->
+    <color name="light_blue_bg">#E1F5FE</color>
+
+    <!-- Status Colors -->
+    <color name="success">#22C55E</color>
+    <color name="warning">#F59E0B</color>
+    <color name="error">#EF4444</color>
+    <color name="info">#0EA5E9</color>
+
+    <!-- UI Element Colors -->
+    <color name="progress_track">#E2E8F0</color>
+    <color name="ripple">#E5E7EB</color>
+    <color name="shadow">#1A000000</color>
+    <color name="next">#BDBDBD</color>
+    <color name="chip_text_color">@color/selector_chip_text</color>
+
+    <!-- Common UI Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Chart Colors -->
+    <color name="chart_color_1">#3B82F6</color>
+    <color name="chart_color_2">#20C997</color>
+    <color name="chart_color_3">#F59E0B</color>
+    <color name="chart_color_4">#8B5CF6</color>
+    <color name="chart_color_5">#EC4899</color>
+
+    <!-- Dark Mode Variations (if needed) -->
+    <color name="theme_text_secondary_dark">#CBD5E1</color>
+    <color name="theme_background_dark">#121826</color>
+    <color name="theme_surface_dark">#1E293B</color>
+    <color name="theme_ripple_dark">#33FFFFFF</color>
+    <color name="theme_text_primary_dark">#F1F5F9</color>
+
+    <!-- Theme adaptive colors -->
+    <color name="theme_text_secondary">@color/text_secondary</color>
+    <color name="theme_background">@color/background_light</color>
+    <color name="theme_surface">@color/surface</color>
+    <color name="theme_ripple">@color/ripple</color>
+
+    <color name="transaction_bg">#E8F5E9</color> <!-- Light green -->
+    <color name="alert_bg">#FFEBEE</color> <!-- Light red -->
+    <color name="reminder_bg">#E1F5FE</color> <!-- Light blue -->
+    <color name="on_surface_emphasis_high">#DE000000</color>
+</resources>

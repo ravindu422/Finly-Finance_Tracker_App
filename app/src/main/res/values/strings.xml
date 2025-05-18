@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Finly</string>
+    <!--activity_main-->
+    <string name="add_transaction">Add Transaction</string>
+    <string name="update_transaction">Update Transaction</string>
+    <!--activity_onboarding-->
+    <string name="btn_skip">Skip</string>
+    <string name="btn_nxt">Next</string>
+    <string name="app_logo">App logo</string>
+
+    <!--dialog_add_transaction-->
+    <string name="expense">Expense</string>
+    <string name="income">Income</string>
+    <string name="input_title">Title</string>
+    <string name="input_amount">Amount</string>
+    <string name="input_category">Category</string>
+    <string name="select_transaction_category">Select transaction category</string>
+    <string name="input_date">Date</string>
+    <string name="note_optional">Note (Optional)</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_update">Update</string>
+
+    <!--dialog_edit_profile-->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="set_budget">Set Budget</string>
+
+    <!--dialog_set_budget-->
+    <string name="input_monthly_budget">Monthly Budget</string>
+    <string name="set_budget_msg">Set your monthly spending budget to receive alerts when you approach your limit.</string>
+    <string name="save_budget">Save Budget</string>
+    <string name="help_icon">Help icon</string>
+
+    <!--fragment_all_transactions-->
+    <string name="ic_back">Back</string>
+    <string name="all_transactions">All Transactions</string>
+    <string name="all_chip">All</string>
+    <string name="income_chip">Income</string>
+    <string name="expense_chip">Expense</string>
+    <string name="no_transactions_found">No transactions found</string>
+
+    <!--fragment_dashboard-->
+    <string name="greeting">Good afternoon,</string>
+    <string name="budget_amount">$2,500.00</string>
+    <string name="ic_notification">Notification icon</string>
+    <string name="budget_usage_percentage">65% of budget used</string>
+    <string name="left_amount">$875.00 left</string>
+    <string name="income_amount">$3,240</string>
+    <string name="expense_amount">$1,625</string>
+    <string name="recent_transactions">Recent Transactions</string>
+    <string name="view_all">View All</string>
+    <string name="ic_expense">Expense icon</string>
+    <string name="ic_income">Income icon</string>
+
+    <!--fragment_login-->
+    <string name="welcome_msg">Welcome Back!</string>
+    <string name="sign_in_description">Sign in to start tracking your finances</string>
+    <string name="input_password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="btn_login_txt">Login</string>
+    <string name="no_account_description">Don\'t have an account?</string>
+    <string name="btn_sign_up_txt">Sign Up</string>
+
+    <!--fragment_notifications-->
+    <string name="all_notifications">Notifications</string>
+    <string name="btn_clear_all">Clear All</string>
+    <string name="no_notifications">No notifications yet</string>
+
+    <!--fragment_profile-->
+    <string name="btn_edit_txt">Edit</string>
+    <string name="financial_summary">Financial Summary</string>
+    <string name="total_balance_txt">Total Balance</string>
+    <string name="ic_warning">Warning: negative balance</string>
+    <string name="total_balance_amount">$12,480.00</string>
+    <string name="this_month_expense_txt">This Month</string>
+    <string name="ic_transaction">Transactions icon</string>
+    <string name="txt_transactions">Transactions</string>
+    <string name="total_transactions_count">42</string>
+    <string name="ic_calendar">Calendar icon</string>
+    <string name="member_since_txt">Member Since</string>
+    <string name="member_since_date">May 2023</string>
+    <string name="ic_login">Login icon</string>
+    <string name="last_login_txt">Last Login</string>
+    <string name="last_login_date">Today</string>
+    <string name="account_actions">Account Actions</string>
+    <string name="ic_settings">Settings icon</string>
+    <string name="settings">Settings</string>
+    <string name="ic_path">Path icon</string>
+    <string name="help_and_support"><![CDATA[Help & Support]]></string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="btn_logout">Logout</string>
+    <string name="ic_privacy">Privacy icon</string>
+
+    <!--fragment_settings-->
+    <string name="general">General</string>
+    <string name="ic_currency">Currency icon</string>
+    <string name="currency">Currency</string>
+    <string name="currency_type">USD</string>
+    <string name="ic_theme">Theme icon</string>
+    <string name="theme">Theme</string>
+    <string name="selected_theme">Light</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="reminder_content">Get reminded to record expenses</string>
+    <string name="ic_budget_alert">Budget alert icon</string>
+    <string name="budget_alerts">Budget Alerts</string>
+    <string name="budget_alert_content">Alert when approaching budget limits</string>
+    <string name="data_management">Data Management</string>
+    <string name="ic_backup">Backup icon</string>
+    <string name="backup_and_sync"><![CDATA[Backup & Sync]]></string>
+    <string name="last_backup_date">Last backup: Today, 10:30 AM</string>
+    <string name="btn_export">Export Data</string>
+    <string name="btn_import">Import Data</string>
+    <string name="ic_delete">Delete icon</string>
+    <string name="clear_all_data">Clear All Data</string>
+
+    <!--fragment_signup-->
+    <string name="create_account">Create Account</string>
+    <string name="sign_up_description">Sign up to start tracking your finances</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up_message">By signing up, you agree to our Terms of Service and Privacy Policy</string>
+
+    <!--fragment_statistics-->
+    <string name="annual_balance">Current Balance</string>
+    <string name="annual_balance_amount">$24,562.00</string>
+    <string name="expense_exceeds_income_msg">Expense Exceeds Income</string>
+    <string name="expense_distribution">Expense Distribution</string>
+    <string name="spending_by_category">Spending by Category</string>
+    <string name="monthly_trend">Monthly Trend</string>
+
+    <!--item_category_spending-->
+    <string name="ic_category">Category icon</string>
+
+    <!--onboarding_page_1-->
+    <string name="onboard_image">Onboard image</string>
+    <string name="track_your_finances_onboard">Track Your Finances</string>
+    <string name="onboard_first_description">Easily record your income and expenses to keep track of where your money goes.</string>
+
+    <!--onboarding_page_2-->
+    <string name="stay_within_budget_onboard">Stay Within Budget</string>
+    <string name="onboard_second_description">Set monthly budgets and get alerts when you\'re approaching your spending limits.</string>
+</resources>

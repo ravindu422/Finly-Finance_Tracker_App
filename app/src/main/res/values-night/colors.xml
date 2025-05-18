@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme adaptive colors for dark mode -->
+    <color name="theme_text_secondary">@color/theme_text_secondary_dark</color>
+    <color name="theme_background">@color/theme_background_dark</color>
+    <color name="theme_surface">@color/theme_surface_dark</color>
+    <color name="theme_ripple">#33FFFFFF</color>
+</resources>

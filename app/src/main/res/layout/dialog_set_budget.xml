@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="0dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="?attr/colorControlHighlight"
+    app:cardBackgroundColor="?attr/colorSurface"
+    android:layout_margin="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/set_budget"
+            android:textSize="20sp"
+            android:textColor="?attr/colorOnSurface"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginBottom="16dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_monthly_budget"
+            app:boxStrokeColor="@color/primary"
+            android:textColorHint="?attr/colorOnSurface"
+            app:boxCornerRadiusTopStart="12dp"
+            app:boxCornerRadiusTopEnd="12dp"
+            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusBottomEnd="12dp"
+            style="@style/Widget.Finly.TextInputLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_budget"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:inputType="numberDecimal"
+                android:fontFamily="@font/poppins"
+                android:textSize="16sp"
+                android:textColor="?attr/colorOnSurface"
+                android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:contentDescription="@string/help_icon"
+                android:src="@drawable/ic_help"
+                app:tint="@color/secondary"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:text="@string/set_budget_msg"
+                android:textSize="13sp"
+                android:fontFamily="@font/poppins"
+                android:textColor="?attr/colorOnSurface" />
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_save_budget"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/save_budget"
+            android:textAllCaps="false"
+            android:fontFamily="@font/poppins_medium"
+            app:cornerRadius="12dp"
+            android:textSize="16sp"
+            android:padding="4dp"
+            app:backgroundTint="@color/secondary" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

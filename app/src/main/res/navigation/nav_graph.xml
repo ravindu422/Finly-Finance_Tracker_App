@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.finly.ui.DashboardFragment"
+        android:label="Dashboard">
+        <action
+            android:id="@+id/action_dashboardFragment_to_allTransactionsFragment"
+            app:destination="@id/allTransactionsFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_notificationsFragment"
+            app:destination="@id/notificationsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.example.finly.ui.StatisticsFragment"
+        android:label="Statistics" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.finly.ui.ProfileFragment"
+        android:label="Profile">
+        <action
+            android:id="@+id/action_profileFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.finly.ui.SettingsFragment"
+        android:label="Settings" />
+
+    <fragment
+        android:id="@+id/allTransactionsFragment"
+        android:name="com.example.finly.ui.AllTransactionsFragment"
+        android:label="All Transactions"
+        tools:layout="@layout/fragment_all_transactions" />
+
+    <action
+        android:id="@+id/action_global_dashboardFragment"
+        app:destination="@id/dashboardFragment"
+        app:popUpTo="@id/nav_graph"
+        app:popUpToInclusive="true" />
+
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.example.finly.ui.NotificationsFragment"
+        android:label="NotificationsFragment"
+        tools:layout="@layout/fragment_notifications">
+    </fragment>
+</navigation>
