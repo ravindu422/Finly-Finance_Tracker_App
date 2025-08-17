@@ -5,9 +5,7 @@ It helps users manage **income, expenses, savings, budgets, and notifications**,
 ![Kotlin](https://img.shields.io/badge/Kotlin-1.9.24-blue?logo=kotlin)  ![Android](https://img.shields.io/badge/Android-12-green?logo=android)  ![MVVM](https://img.shields.io/badge/Architecture-MVVM-orange)  
 
 ## 🛠 Tech Stack & Libraries
-
-  ![MVVM](https://img.shields.io/badge/Architecture-MVVM-orange)  ![Material UI](https://img.shields.io/badge/Material-UI-teal)  ![AndroidX](https://img.shields.io/badge/AndroidX-Core-lightgrey)  ![Gson](https://img.shields.io/badge/Gson-2.10.1-yellowgreen)  ![MPAndroidChart](https://img.shields.io/badge/MPAndroidChart-v3.1.0-blueviolet)  ![CircleImageView](https://img.shields.io/badge/CircleImageView-3.1.0-lightblue)  ![JUnit](https://img.shields.io/badge/JUnit-4.13.2-red)  ![Espresso](https://img.shields.io/badge/Espresso-3.6.1-brown)  
-
+ 
 - **Language:** [Kotlin](https://kotlinlang.org/)  
 - **Architecture:** [MVVM](https://developer.android.com/topic/architecture)  
 - **UI & Navigation:**  
