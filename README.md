@@ -112,3 +112,11 @@ sh ./gradlew :app:installDebug
 The debug APK is generated at `app/build/outputs/apk/debug/app-debug.apk`. After installation, open **Finly**, complete or skip onboarding, and create a local account. Allow notifications when prompted to receive reminders and budget alerts.
 
 These commands follow the project configuration. Builds, tests, and device behavior were not verified during this documentation update.
+
+
+## Screenshots
+
+<p align="left">
+  <img src="assets/screenshots/home-screen-white.jpg" width="20%" alt="Home Screen light theme"/>
+  <img src="assets/screenshots/home-screen-black.jpg" width="20%" alt="Home Screen dark theme" />
+</p>
